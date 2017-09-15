@@ -12,95 +12,153 @@
         <array key="Mark Simonson - Proxima Nova Alt Regular.otf">
             <string>ProximaNovaA-Regular</string>
         </array>
-        <array key="Raleway-Bold.ttf">
-            <string>Raleway-Bold</string>
-        </array>
-        <array key="Raleway-Regular.ttf">
-            <string>Raleway-Regular</string>
-        </array>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoginView_pepsico" customModule="LiferayScreensThemePepsico" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="374" height="383"/>
+        <tapGestureRecognizer id="OgX-6v-rte"/>
+        <view contentMode="scaleToFill" id="ck9-nX-Shs" customClass="LoginView_pepsico" customModule="LiferayScreensThemePepsico" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="388"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jzg-M5-YCD">
-                    <rect key="frame" x="0.0" y="0.0" width="374" height="383"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="USj-Nb-JOd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="295"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLz-U3-Q5H" customClass="IconoTextField" customModule="LiferayScreensThemePepsico" customModuleProvider="target">
-                            <rect key="frame" x="35" y="114" width="305" height="30"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            <nil key="textColor"/>
-                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="15"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="color" keyPath="colorLineaBottom">
-                                    <color key="value" red="0.31741669769999997" green="0.31773331760000001" blue="0.3257363439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="boolean" keyPath="estiloLinea" value="YES"/>
-                            </userDefinedRuntimeAttributes>
-                        </textField>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWM-2y-yPl">
-                            <rect key="frame" x="0.0" y="353" width="374" height="30"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova Alt" pointSize="12"/>
-                            <state key="normal" title="RECUPERAR CONTRASEÑA">
-                                <color key="titleColor" red="0.31741669769999997" green="0.31773331760000001" blue="0.3257363439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </state>
-                        </button>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pepsico_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="wfv-dF-QI3">
-                            <rect key="frame" x="28" y="8" width="318" height="98"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pepsico_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fKc-iR-UvG">
+                            <rect key="frame" x="0.0" y="8" width="318" height="98"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                         </imageView>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvZ-YS-rrZ">
-                            <rect key="frame" x="89" y="299" width="197" height="39"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                            <color key="backgroundColor" red="0.002458446659" green="0.31965893509999999" blue="0.61151522400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="14"/>
-                            <state key="normal" title="INGRESAR">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                    <real key="value" value="2"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
-                        </button>
-                        <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="82Q-0u-XUM" customClass="IconoTextField" customModule="LiferayScreensThemePepsico" customModuleProvider="target">
-                            <rect key="frame" x="35" y="165" width="305" height="30"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="demo-cross.png" translatesAutoresizingMaskIntoConstraints="NO" id="PkA-9m-IaM">
+                            <rect key="frame" x="178" y="122" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="demo-cross.png" translatesAutoresizingMaskIntoConstraints="NO" id="MQ5-wZ-w7s">
+                            <rect key="frame" x="178" y="212" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="demo-check-green.png" translatesAutoresizingMaskIntoConstraints="NO" id="MXd-5H-YYS">
+                            <rect key="frame" x="155" y="122" width="15" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="demo-check-green.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zbv-JX-Kec">
+                            <rect key="frame" x="155" y="212" width="15" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please, enter a valid address" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UcO-cy-jvx">
+                            <rect key="frame" x="130" y="114" width="180" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                            <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EMAIL ADDRESS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJQ-Pg-BRW">
+                            <rect key="frame" x="8" y="114" width="162" height="27"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            <nil key="textColor"/>
-                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="15"/>
-                            <textInputTraits key="textInputTraits" keyboardType="alphabet" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="boolean" keyPath="estiloLinea" value="YES"/>
-                                <userDefinedRuntimeAttribute type="color" keyPath="colorLineaBottom">
-                                    <color key="value" red="0.31741669769999997" green="0.31773331760000001" blue="0.3257363439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.31964686510000001" blue="0.61151522400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PASSWORD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FF8-E1-i03">
+                            <rect key="frame" x="8" y="204" width="145" height="27"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.31964686510000001" blue="0.61151522400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PPF-mz-sBj">
+                            <rect key="frame" x="18" y="144" width="292" height="41"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="ck9-nX-Shs" id="7VJ-bP-q79"/>
+                            </connections>
                         </textField>
+                        <textField opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wp8-pw-WL5">
+                            <rect key="frame" x="18" y="234" width="292" height="41"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" returnKeyType="send" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="ck9-nX-Shs" id="DmQ-Bv-gLF"/>
+                            </connections>
+                        </textField>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please, enter a valid password" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Myf-pa-yvJ" userLabel="Password msg">
+                            <rect key="frame" x="130" y="204" width="180" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                            <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbi-n1-8c1">
+                    <rect key="frame" x="0.0" y="358" width="320" height="30"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova Alt" pointSize="12"/>
+                    <state key="normal" title="RECUPERAR CONTRASEÑA">
+                        <color key="titleColor" red="0.31741669769999997" green="0.31773331760000001" blue="0.3257363439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lE9-GM-p6b">
+                    <rect key="frame" x="63" y="303" width="195" height="47"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <button opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="login-action" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="09q-wE-DhN">
+                            <rect key="frame" x="-16" y="0.0" width="226" height="47"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.31964686510000001" blue="0.61151522400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            <state key="normal" image="demo-check.png">
+                                <attributedString key="attributedTitle"/>
+                            </state>
+                        </button>
+                        <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ist-Ve-bhp">
+                            <rect key="frame" x="82" y="9" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="exa-j2-aaU">
+                                    <rect key="frame" x="5" y="5" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </activityIndicatorView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.31964686510000001" blue="0.61151522400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="loginButton" destination="cvZ-YS-rrZ" id="rPG-iX-c4R"/>
-                <outlet property="passwordField" destination="82Q-0u-XUM" id="7f5-Jd-Rb9"/>
-                <outlet property="userNameField" destination="dLz-U3-Q5H" id="kSe-O5-uSg"/>
+                <outlet property="emailFail" destination="PkA-9m-IaM" id="YQb-OM-0xU"/>
+                <outlet property="emailFailMsg" destination="UcO-cy-jvx" id="dOb-HA-ePA"/>
+                <outlet property="emailLabel" destination="NJQ-Pg-BRW" id="2nR-FC-eJi"/>
+                <outlet property="emailMark" destination="MXd-5H-YYS" id="bwQ-Xe-vLW"/>
+                <outlet property="loginButton" destination="09q-wE-DhN" id="DK7-oE-6hc"/>
+                <outlet property="passwordFail" destination="MQ5-wZ-w7s" id="hml-YG-eUF"/>
+                <outlet property="passwordFailMsg" destination="Myf-pa-yvJ" id="2oc-Cd-G5w"/>
+                <outlet property="passwordField" destination="wp8-pw-WL5" id="SE4-JE-fkb"/>
+                <outlet property="passwordLabel" destination="FF8-E1-i03" id="bw2-40-TAn"/>
+                <outlet property="passwordMark" destination="Zbv-JX-Kec" id="oEj-0l-mIj"/>
+                <outlet property="progressView" destination="ist-Ve-bhp" id="jT3-bN-LmU"/>
+                <outlet property="scrollView" destination="USj-Nb-JOd" id="aK3-oA-a2q"/>
+                <outlet property="spinner" destination="exa-j2-aaU" id="Hq9-cA-ASj"/>
+                <outlet property="userNameField" destination="PPF-mz-sBj" id="6Mz-e7-i91"/>
             </connections>
-            <point key="canvasLocation" x="43" y="16.5"/>
+            <point key="canvasLocation" x="61" y="194"/>
         </view>
     </objects>
     <resources>
+        <image name="demo-check-green.png" width="15" height="12"/>
+        <image name="demo-check.png" width="16" height="11"/>
+        <image name="demo-cross.png" width="12" height="12"/>
         <image name="pepsico_logo.png" width="347" height="138"/>
     </resources>
 </document>
