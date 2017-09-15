@@ -15,6 +15,20 @@
 		52517E321F6B21D30092CB3B /* pepsico_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E311F6B21D30092CB3B /* pepsico_logo.png */; };
 		52517E351F6B21DF0092CB3B /* LoginView_pepsico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52517E331F6B21DF0092CB3B /* LoginView_pepsico.swift */; };
 		52517E361F6B21DF0092CB3B /* LoginView_pepsico.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52517E341F6B21DF0092CB3B /* LoginView_pepsico.xib */; };
+		52517E431F6B43490092CB3B /* demo-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E371F6B43490092CB3B /* demo-calendar.png */; };
+		52517E441F6B43490092CB3B /* demo-calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E381F6B43490092CB3B /* demo-calendar@2x.png */; };
+		52517E451F6B43490092CB3B /* demo-check-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E391F6B43490092CB3B /* demo-check-green.png */; };
+		52517E461F6B43490092CB3B /* demo-check-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E3A1F6B43490092CB3B /* demo-check-green@2x.png */; };
+		52517E471F6B43490092CB3B /* demo-check.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E3B1F6B43490092CB3B /* demo-check.png */; };
+		52517E481F6B43490092CB3B /* demo-check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E3C1F6B43490092CB3B /* demo-check@2x.png */; };
+		52517E491F6B43490092CB3B /* demo-cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E3D1F6B43490092CB3B /* demo-cross.png */; };
+		52517E4A1F6B43490092CB3B /* demo-cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E3E1F6B43490092CB3B /* demo-cross@2x.png */; };
+		52517E4B1F6B43490092CB3B /* demo-form-gradient-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E3F1F6B43490092CB3B /* demo-form-gradient-bottom.png */; };
+		52517E4C1F6B43490092CB3B /* demo-form-gradient-bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E401F6B43490092CB3B /* demo-form-gradient-bottom@2x.png */; };
+		52517E4D1F6B43490092CB3B /* demo-form-gradient-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E411F6B43490092CB3B /* demo-form-gradient-top.png */; };
+		52517E4E1F6B43490092CB3B /* demo-form-gradient-top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52517E421F6B43490092CB3B /* demo-form-gradient-top@2x.png */; };
+		52517E521F6C170C0092CB3B /* String+Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52517E501F6C170C0092CB3B /* String+Password.swift */; };
+		52517E531F6C170C0092CB3B /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52517E511F6C170C0092CB3B /* String+Validation.swift */; };
 		5F957B46D2058D223955275D /* Pods_LiferayScreensThemePepsicoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2089C28B3A7BDC89C7382 /* Pods_LiferayScreensThemePepsicoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +53,20 @@
 		52517E311F6B21D30092CB3B /* pepsico_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pepsico_logo.png; path = PepsicoTheme/Resources/pepsico_logo.png; sourceTree = "<group>"; };
 		52517E331F6B21DF0092CB3B /* LoginView_pepsico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView_pepsico.swift; path = PepsicoTheme/Auth/LoginScreenlet/LoginView_pepsico.swift; sourceTree = "<group>"; };
 		52517E341F6B21DF0092CB3B /* LoginView_pepsico.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView_pepsico.xib; path = PepsicoTheme/Auth/LoginScreenlet/LoginView_pepsico.xib; sourceTree = "<group>"; };
+		52517E371F6B43490092CB3B /* demo-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-calendar.png"; path = "PepsicoTheme/Resources/demo-calendar.png"; sourceTree = "<group>"; };
+		52517E381F6B43490092CB3B /* demo-calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-calendar@2x.png"; path = "PepsicoTheme/Resources/demo-calendar@2x.png"; sourceTree = "<group>"; };
+		52517E391F6B43490092CB3B /* demo-check-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-check-green.png"; path = "PepsicoTheme/Resources/demo-check-green.png"; sourceTree = "<group>"; };
+		52517E3A1F6B43490092CB3B /* demo-check-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-check-green@2x.png"; path = "PepsicoTheme/Resources/demo-check-green@2x.png"; sourceTree = "<group>"; };
+		52517E3B1F6B43490092CB3B /* demo-check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-check.png"; path = "PepsicoTheme/Resources/demo-check.png"; sourceTree = "<group>"; };
+		52517E3C1F6B43490092CB3B /* demo-check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-check@2x.png"; path = "PepsicoTheme/Resources/demo-check@2x.png"; sourceTree = "<group>"; };
+		52517E3D1F6B43490092CB3B /* demo-cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-cross.png"; path = "PepsicoTheme/Resources/demo-cross.png"; sourceTree = "<group>"; };
+		52517E3E1F6B43490092CB3B /* demo-cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-cross@2x.png"; path = "PepsicoTheme/Resources/demo-cross@2x.png"; sourceTree = "<group>"; };
+		52517E3F1F6B43490092CB3B /* demo-form-gradient-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-form-gradient-bottom.png"; path = "PepsicoTheme/Resources/demo-form-gradient-bottom.png"; sourceTree = "<group>"; };
+		52517E401F6B43490092CB3B /* demo-form-gradient-bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-form-gradient-bottom@2x.png"; path = "PepsicoTheme/Resources/demo-form-gradient-bottom@2x.png"; sourceTree = "<group>"; };
+		52517E411F6B43490092CB3B /* demo-form-gradient-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-form-gradient-top.png"; path = "PepsicoTheme/Resources/demo-form-gradient-top.png"; sourceTree = "<group>"; };
+		52517E421F6B43490092CB3B /* demo-form-gradient-top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demo-form-gradient-top@2x.png"; path = "PepsicoTheme/Resources/demo-form-gradient-top@2x.png"; sourceTree = "<group>"; };
+		52517E501F6C170C0092CB3B /* String+Password.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Password.swift"; path = "PepsicoTheme/Common/String+Password.swift"; sourceTree = "<group>"; };
+		52517E511F6C170C0092CB3B /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Validation.swift"; path = "PepsicoTheme/Common/String+Validation.swift"; sourceTree = "<group>"; };
 		8C58A3557A0200E7B58F0BF7 /* Pods-LiferayScreensThemePepsico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiferayScreensThemePepsico.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiferayScreensThemePepsico/Pods-LiferayScreensThemePepsico.debug.xcconfig"; sourceTree = "<group>"; };
 		AFA9F61241D265629EFC2B3C /* Pods-LiferayScreensThemePepsico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiferayScreensThemePepsico.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiferayScreensThemePepsico/Pods-LiferayScreensThemePepsico.release.xcconfig"; sourceTree = "<group>"; };
 		BCAF85287E866A995718C4DE /* Pods-LiferayScreensThemePepsicoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiferayScreensThemePepsicoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiferayScreensThemePepsicoTests/Pods-LiferayScreensThemePepsicoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +138,7 @@
 		52517E061F6B0A460092CB3B /* PepsicoTheme */ = {
 			isa = PBXGroup;
 			children = (
+				52517E4F1F6C16F00092CB3B /* Common */,
 				52517E101F6B1B4D0092CB3B /* Utileria */,
 				52517E0D1F6B0EAD0092CB3B /* Resources */,
 				52517E071F6B0A630092CB3B /* Auth */,
@@ -137,6 +166,18 @@
 		52517E0D1F6B0EAD0092CB3B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				52517E371F6B43490092CB3B /* demo-calendar.png */,
+				52517E381F6B43490092CB3B /* demo-calendar@2x.png */,
+				52517E391F6B43490092CB3B /* demo-check-green.png */,
+				52517E3A1F6B43490092CB3B /* demo-check-green@2x.png */,
+				52517E3B1F6B43490092CB3B /* demo-check.png */,
+				52517E3C1F6B43490092CB3B /* demo-check@2x.png */,
+				52517E3D1F6B43490092CB3B /* demo-cross.png */,
+				52517E3E1F6B43490092CB3B /* demo-cross@2x.png */,
+				52517E3F1F6B43490092CB3B /* demo-form-gradient-bottom.png */,
+				52517E401F6B43490092CB3B /* demo-form-gradient-bottom@2x.png */,
+				52517E411F6B43490092CB3B /* demo-form-gradient-top.png */,
+				52517E421F6B43490092CB3B /* demo-form-gradient-top@2x.png */,
 				52517E311F6B21D30092CB3B /* pepsico_logo.png */,
 			);
 			name = Resources;
@@ -148,6 +189,15 @@
 				52517E2F1F6B21BD0092CB3B /* IconoTextField.swift */,
 			);
 			name = Utileria;
+			sourceTree = "<group>";
+		};
+		52517E4F1F6C16F00092CB3B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				52517E501F6C170C0092CB3B /* String+Password.swift */,
+				52517E511F6C170C0092CB3B /* String+Validation.swift */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 		D64BFA2BBFA2D7B882145D2C /* Frameworks */ = {
@@ -271,7 +321,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52517E4C1F6B43490092CB3B /* demo-form-gradient-bottom@2x.png in Resources */,
+				52517E461F6B43490092CB3B /* demo-check-green@2x.png in Resources */,
+				52517E451F6B43490092CB3B /* demo-check-green.png in Resources */,
+				52517E4A1F6B43490092CB3B /* demo-cross@2x.png in Resources */,
+				52517E491F6B43490092CB3B /* demo-cross.png in Resources */,
+				52517E471F6B43490092CB3B /* demo-check.png in Resources */,
+				52517E431F6B43490092CB3B /* demo-calendar.png in Resources */,
+				52517E4B1F6B43490092CB3B /* demo-form-gradient-bottom.png in Resources */,
+				52517E441F6B43490092CB3B /* demo-calendar@2x.png in Resources */,
 				52517E321F6B21D30092CB3B /* pepsico_logo.png in Resources */,
+				52517E4D1F6B43490092CB3B /* demo-form-gradient-top.png in Resources */,
+				52517E4E1F6B43490092CB3B /* demo-form-gradient-top@2x.png in Resources */,
+				52517E481F6B43490092CB3B /* demo-check@2x.png in Resources */,
 				52517E361F6B21DF0092CB3B /* LoginView_pepsico.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,8 +471,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52517E521F6C170C0092CB3B /* String+Password.swift in Sources */,
 				52517E351F6B21DF0092CB3B /* LoginView_pepsico.swift in Sources */,
 				52517E301F6B21BD0092CB3B /* IconoTextField.swift in Sources */,
+				52517E531F6C170C0092CB3B /* String+Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
