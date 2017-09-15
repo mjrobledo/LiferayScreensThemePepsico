@@ -29,6 +29,15 @@ import LiferayScreens
       
     }
     
+    override public func onPreAction(name: String?, sender: AnyObject?) -> Bool {
+        if name == "login-action" {
+           print("Login")
+        }
+        
+        return true
+    }
+    
+    
     public override func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         
